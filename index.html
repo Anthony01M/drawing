@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drawing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="toolbar">
+      <button id="pencil-tool" class="active" title="Pencil">Pencil</button>
+      <button id="eraser-tool" title="Eraser">Eraser</button>
+      <button id="line-tool" title="Line">Line</button>
+      <button id="rectangle-tool" title="Rectangle">Rectangle</button>
+      <button id="square-tool" title="Square">Square</button>
+      <button id="circle-tool" title="Circle">Circle</button>
+      <button id="ellipse-tool" title="Ellipse">Ellipse</button>
+      <button id="triangle-tool" title="Triangle">Triangle</button>
+      <button id="right-triangle-tool" title="Right Triangle">Right Triangle</button>
+      <button id="pentagon-tool" title="Pentagon">Pentagon</button>
+      <button id="hexagon-tool" title="Hexagon">Hexagon</button>
+      <button id="octagon-tool" title="Octagon">Octagon</button>
+      <button id="star-tool" title="Star">Star</button>
+      <button id="heart-tool" title="Heart">Heart</button>
+      <button id="arrow-tool" title="Arrow">Arrow</button>
+      <input type="color" id="color-picker" value="#000000" title="Color Picker">
+      <input type="range" id="brush-size" min="1" max="50" value="5" title="Brush Size">
+      <span id="brush-size-display">5</span>
+      <button id="clear-canvas" title="Clear Canvas">Clear</button>
+      <button id="download" title="Download">Download</button>
+    </div>
+    <canvas id="drawing-canvas"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
